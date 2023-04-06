@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "title": "hey there",
+        "text": "hey you",
+        "id": "e5fee6d1-da44-439a-886b-4510c82c2afa"
+    },
+    {
+        "title": "Yes you",
+        "text": "I'm talking to you",
+        "id": "012a5d8c-1390-414a-9a08-dbaf358c685e"
+    },
+    {
+        "title": "Hey dude",
+        "text": "Don't ignore me",
+        "id": "4b0262cb-4980-4697-9960-d1ef87434651"
+    },
+    {
+        "title": "Man",
+        "text": "This assignment is pretty hard",
+        "id": "6a0be6a9-db63-43c2-96eb-db4ec9631dc6"
+    },
+    {
+        "title": "Don't know about you",
+        "text": "but I still don't understand a lot of this",
+        "id": "f1d4e164-bad1-4272-83c2-4659984542eb"
+    },
+    {
+        "title": "Whatever",
+        "text": "It'll get better with practice I guess",
+        "id": "de662ad3-d9a6-45f1-b216-cda662d95dbb"
+    }
+]
