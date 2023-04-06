@@ -50,9 +50,10 @@ notes.delete("/:noteId", (req, res) => {
     fs.readFile("./db/db.json", (error, data) => {
         const parsedData = JSON.parse(data);
         const result = parsedData.filter((note) => note.id !== toBeDelete);
-        console.log(result)
         fs.writeFile("./db/db.json", JSON.stringify(result, null, 4), (error) => {
-            console.log(error);
+            if (error) {
+                console.log(error);
+            }
         });
 
         res.json(`Note with ID:${toBeDelete} has been deleted`)
