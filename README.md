@@ -1,22 +1,22 @@
 # Note-Taking-App
-An app that lets the user writes and stores notes in a database, built with Javascript, Node, and Express.
+An app that lets the user writes and stores notes in a database, built with Javascript, Node, Express, and hosted by Heroku.
 
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-A sample SVG file can be view [here](./img/generated-logo-sample.svg)
-
-A video demo of the app can be found [here](https://drive.google.com/file/d/1OIaA_f48S9_LrMK0eQpl6ZGprkc5WNhu/view)
+The fully deployed app can be found [here](https://afternoon-reaches-14924.herokuapp.com/).
 
 ## Screenshot
 
-![App](./img/cli_image.jpg)
+![Front-Page](./public/assets/images/front-page.jpg)
+
+![Main-Page](./public/assets/images/main-page.jpg)
 
 ## Features
 
-- Built with Node, inquirer, Jest
-- User can input up to 3 letters and choose from one of the three provided shapes for their logo
-- They can then input the colors for both the text and shape, using basic color words or hex codes
+- Built with Node and Express
+- User can input a name and a description for each of the notes they'd like to store, via a save button
+- Note data are saved in a database and stayed persistence, until the user decides to delete them via a delete button
 
 ## Table of Contents 
 
